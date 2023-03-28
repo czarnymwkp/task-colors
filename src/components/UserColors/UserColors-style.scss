@@ -1,0 +1,23 @@
+.userColors-main {
+	background-color: rgb(157, 161, 97);
+	min-height: 100px;
+	width: 45%;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 15px;
+}
+.userColors-main-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	border: 2px rgb(255, 255, 255) solid;
+	border-radius: 10px;
+	margin: 15px;
+}
+.square {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}

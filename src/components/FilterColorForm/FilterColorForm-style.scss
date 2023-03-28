@@ -1,0 +1,25 @@
+$mainFilterFormColor: blue;
+
+.filter-container-label {
+	color: $mainFilterFormColor;
+	font-weight: 600;
+	border: 2px solid $mainFilterFormColor;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.red {
+	background: red;
+	color: white;
+}
+
+.green {
+	background-color: green;
+	color: white;
+}
+
+.blue {
+	background: $mainFilterFormColor;
+	color: white;
+}
